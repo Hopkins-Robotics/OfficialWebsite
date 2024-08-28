@@ -1,0 +1,29 @@
+.maincontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    
+}
+.maincontainer div {
+    display: flex;
+    align-items: center;
+    background-color: #383838;
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.maincontainer div p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.maincontainer div img {
+    width: 160px;
+    height: 160px;
+}
+
+.desc {
+    font-style: italic;
+}

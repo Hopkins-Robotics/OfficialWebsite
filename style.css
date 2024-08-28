@@ -1,7 +1,8 @@
 
 :root {
     font-family:'Open Sans';
-    background-color: black;
+    background-color: #494949;
+    color: white;
 }
 @font-face {
     font-family: 'Open Sans';
@@ -37,7 +38,10 @@
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: #494949;
+}
+p{
+    font-size: 22px;
 }
 .socials{
     margin-left: auto;
@@ -72,7 +76,6 @@ h1{
 }
 body {
     display: grid;
-    background-color: rgb(204, 204, 204);
     background-color: black;
 }
 
@@ -84,7 +87,8 @@ h3{
 }
 header{
     display: grid;
-    grid-template-rows: 110px 50px 100px;
+    grid-template-rows: 110px 50px 150px;
+    grid-template-columns: 100%;
 }
 .navbar {
     text-align: center;
@@ -95,9 +99,27 @@ header{
     align-items: center;
 }
 
-#donate{
+#donate {
+    background-color: #494949;
+    display: flex;
+    align-items: center;
+}
+
+.donateButton{
+    display:block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 32px;
+    padding: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 40px;
+    border-style: none;
+    box-shadow: 3px 6px #3a3a3a;
+
 }
 
 .navbar a {
