@@ -56,6 +56,10 @@ p{
     height: 24px;
     margin-top: 3px;
 }
+
+h4{
+    display: inline;
+}
 body{
     margin: 0px;
 }
