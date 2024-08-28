@@ -1,0 +1,13 @@
+.maincontainer .aboutteam {
+    display: block;
+    grid-area: 1/1/3/2;
+}
+.maincontainer div img {
+    width: 160px;
+    height: 160px;
+}
+
+.maincontainer div p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
