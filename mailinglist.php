@@ -3,8 +3,8 @@ $email = $_POST["email"];
 
 $host = "localhost:3306";
 $dbname = "juzxkxdv_mailinglist";
-$username = "root";
-$password = "";
+$username = "juzxkxdv_illuzzi";
+$password = "M3ch@n1z3dMutt0n33r$";
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 if (mysqli_connect_errno()) {
