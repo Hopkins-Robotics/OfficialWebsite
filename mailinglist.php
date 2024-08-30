@@ -1,6 +1,10 @@
 <?php
 $email = $_POST["email"];
 
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    die("valid email format");
+}
+
 $host = "localhost:3306";
 $dbname = "juzxkxdv_mailinglist";
 $username = "juzxkxdv_illuzzi";
