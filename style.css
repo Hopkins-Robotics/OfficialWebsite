@@ -66,6 +66,9 @@ body{
 }
 .socialitem a img {
     height: 18px;
+    max-height: 18px;
+    width: 18px;
+    max-width: 18px;
     margin-right: 7px;
     margin-bottom: 1px;
 }
